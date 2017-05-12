@@ -1,0 +1,37 @@
+{
+  "name": "node-red-contrib-iot-433mhz",
+  "version": "1.0.0",
+  "description": "Iot-433Mhz nodes for the Node-RED flow engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roccomuso/node-red-contrib-iot-433mhz.git"
+  },
+  "keywords": [
+    "node-red",
+    "iot-433mhz",
+    "iot",
+    "433mhz",
+    "module",
+    "nodes",
+    "node"
+  ],
+  "author": "Rocco Musolino (roccomuso)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roccomuso/node-red-contrib-iot-433mhz/issues"
+  },
+  "homepage": "https://github.com/roccomuso/node-red-contrib-iot-433mhz#readme",
+  "node-red"     : {
+      "nodes": {
+          "alarm": "iot-433mhz/alarm.js",
+          "switch": "iot-433mhz/switch.js",
+      }
+  },
+  "dependencies": {
+    "got": "^6.7.1"
+  }
+}
